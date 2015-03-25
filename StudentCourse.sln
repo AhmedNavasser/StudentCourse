@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModel", "DomainModel", "{6BB0BDF9-D3D9-4AA3-B19D-C07BC3C92044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{B4E85AAC-5046-4248-AA49-8F51A7D9F533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{D1865DDC-D144-45A2-B254-7CB03A06FF99}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DomainModel", "DomainModel\DomainModel.vbproj", "{ADC4C999-6C34-4653-86A7-DACA0E2BB01B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{B5CEA076-BC86-4ED7-894E-8A1F24FA65B1}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UmlModel", "UmlModel\UmlModel.modelproj", "{DED48BC6-3A9F-46A0-A711-E707DA11C630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlModelLib", "UmlModelLib\UmlModelLib.csproj", "{56455FEA-DA9D-4832-9A1C-CFCA5E7613DC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Client", "Client\Client.vbproj", "{72FBC210-6CC6-4E10-8947-6BD813FD3029}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccess", "DataAccess\DataAccess.vbproj", "{7F38A015-7990-46D2-8B58-59B7278B47A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADC4C999-6C34-4653-86A7-DACA0E2BB01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC4C999-6C34-4653-86A7-DACA0E2BB01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC4C999-6C34-4653-86A7-DACA0E2BB01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC4C999-6C34-4653-86A7-DACA0E2BB01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED48BC6-3A9F-46A0-A711-E707DA11C630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED48BC6-3A9F-46A0-A711-E707DA11C630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED48BC6-3A9F-46A0-A711-E707DA11C630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED48BC6-3A9F-46A0-A711-E707DA11C630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56455FEA-DA9D-4832-9A1C-CFCA5E7613DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56455FEA-DA9D-4832-9A1C-CFCA5E7613DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56455FEA-DA9D-4832-9A1C-CFCA5E7613DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56455FEA-DA9D-4832-9A1C-CFCA5E7613DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FBC210-6CC6-4E10-8947-6BD813FD3029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FBC210-6CC6-4E10-8947-6BD813FD3029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FBC210-6CC6-4E10-8947-6BD813FD3029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FBC210-6CC6-4E10-8947-6BD813FD3029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F38A015-7990-46D2-8B58-59B7278B47A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F38A015-7990-46D2-8B58-59B7278B47A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F38A015-7990-46D2-8B58-59B7278B47A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F38A015-7990-46D2-8B58-59B7278B47A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADC4C999-6C34-4653-86A7-DACA0E2BB01B} = {6BB0BDF9-D3D9-4AA3-B19D-C07BC3C92044}
+		{DED48BC6-3A9F-46A0-A711-E707DA11C630} = {B5CEA076-BC86-4ED7-894E-8A1F24FA65B1}
+		{72FBC210-6CC6-4E10-8947-6BD813FD3029} = {D1865DDC-D144-45A2-B254-7CB03A06FF99}
+		{7F38A015-7990-46D2-8B58-59B7278B47A3} = {B4E85AAC-5046-4248-AA49-8F51A7D9F533}
+	EndGlobalSection
+EndGlobal

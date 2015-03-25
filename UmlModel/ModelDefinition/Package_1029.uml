@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6407f9be-c777-460f-b58e-db061a655c97"
+  name="DomainModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2d48e092-eb76-4185-a570-3a8f379df8a5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDomainModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b4714453-5f95-4f5b-a5a7-28e6cfd277a8"
+        name="Course"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a45305a3-0a7e-443f-88ab-cd758e74ee8f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse"
+            tag="ViewCode" />
+        </referencesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7554fe75-3949-4c75-b20a-52fa08afcbcd"
+            name="CourseId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d7441924-7048-41c5-8ba9-4699a11fc3fd"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3DCourseId"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="cccfb04c-6dfa-4ff1-bb8d-35a0447b8a0e"
+            name="CourseName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8a86cfa3-501d-4af8-9e9a-4bf096d76ae5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3DCourseName"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="facb723b-94bb-4866-a041-b5a5807fed57"
+            name="StudentList"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8841ad1a-f0f8-42d1-9f45-4a8494012bf1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3DStudentList"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="0319b896-e8fb-44c0-a7b8-457493f26b01"
+            name="Term"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="35547c37-adb0-4906-9eb4-b9cc2fe39451"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3DTerm"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="74d11ba1-e60e-447e-a7f8-37e62b290b44"
+            name="_CourseId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="88d351b4-c9cd-49f2-9113-0fcd2576db75"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3D(Name%3D_CourseId IsCompilerGenerated%3DTrue)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="UmlModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6c13b703-f176-415a-82ca-5a783c3483b6"
+            name="_CourseName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2fefa372-1911-49f6-8580-7f704604d20e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3D(Name%3D_CourseName IsCompilerGenerated%3DTrue)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="UmlModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="084450fc-d30a-47bb-a102-69302c41efbc"
+            name="_StudentList"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8236fae0-2d49-4c8d-a42e-9e47392fe9d0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3D(Name%3D_StudentList IsCompilerGenerated%3DTrue)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f8363329-7aea-4de9-9718-4e700b7f7174"
+                LastKnownName="ICollection"
+                LastKnownLocation="Package3_1029.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cafedb15-3b52-4419-a500-5b2ef1d5c5c6"
+            name="_Term"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b30735c-d046-44af-984f-a0d985b94a85"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DCourse Member%3D(Name%3D_Term IsCompilerGenerated%3DTrue)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="983f0885-ac5d-4695-830e-91a55286fc9a"
+                LastKnownName="Term"
+                LastKnownLocation="Package_1029.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="983f0885-ac5d-4695-830e-91a55286fc9a"
+        name="Term"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="89c2b150-26af-4f2a-9406-5843830e1fac"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fcloud%2Fdocuments%2Fvisual studio 2013%2FProjects%2FStudentCourse%2FDomainModel%2Fbin%2FDebug%2FDomainModel.dll&quot; Namespace%3DDomainModel Type%3DTerm"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

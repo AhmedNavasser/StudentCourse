@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="ProjectPath = ..\UmlModelLib\UmlModelLib.csproj" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-03-17T10:26:25" Importance="Medium" Text="UmlModel's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'UmlModel::Student' -  (Class), 'UmlModel::Course' -  (Class), 'UmlModel::Term' -  (Class) " />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Medium" Text="'UmlModel::Student' -  (Class) : success (file created) - c:\users\cloud\documents\visual studio 2013\Projects\StudentCourse\UmlModelLib\GeneratedCode\Student.cs" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Medium" Text="'UmlModel::Course' -  (Class) : success (file created) - c:\users\cloud\documents\visual studio 2013\Projects\StudentCourse\UmlModelLib\GeneratedCode\Course.cs" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Medium" Text="'UmlModel::Term' -  (Class) : success (file created) - c:\users\cloud\documents\visual studio 2013\Projects\StudentCourse\UmlModelLib\GeneratedCode\Term.cs" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="ProjectPath = ..\UmlModelLib\UmlModelLib.csproj" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Medium" Text="UmlModel's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'UmlModel::Student' -  (Class), 'UmlModel::Course' -  (Class), 'UmlModel::Term' -  (Class) " />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="'UmlModel::Student' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="'UmlModel::Course' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-03-17T10:26:26" Importance="Diagnostic" Text="'UmlModel::Term' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-03-17T10:26:27" Importance="Diagnostic" Text="The selection included 3 elements which were not bound to a template." />
+  <Message Timestamp="2015-03-17T10:26:27" Importance="Diagnostic" Text="'UmlModel::' -  (Association): no bound template." />
+  <Message Timestamp="2015-03-17T10:26:27" Importance="Diagnostic" Text="'UmlModel::' -  (Association): no bound template." />
+  <Message Timestamp="2015-03-17T10:26:27" Importance="Diagnostic" Text="'UmlModel::' -  (Association): no bound template." />
+  <Message Timestamp="2015-03-17T10:26:27" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
